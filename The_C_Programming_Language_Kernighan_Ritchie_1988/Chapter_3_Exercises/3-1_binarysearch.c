@@ -7,10 +7,10 @@ int binsearch(int x, int v[], int n);
  * Outside the loop. */
 int main() {
 
-    int v[6] = {0, 2, 3, 7, 8, 10};
+    int v[9] = {0, 2, 3, 7, 8, 10, 15, 19, 22};
 
-    printf("binsearch(3) = %d", binsearch(3, v, 6));
-
+    printf("binsearch(8) = %d", binsearch(8, v, 9));
+    
 
     return 0;
 } // main
